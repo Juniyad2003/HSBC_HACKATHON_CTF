@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection System</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: auto;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .result {
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Fraud Detection System</h2>
+    <form action="/predict" method="POST">
+        <label>Merchant Category:</label><br>
+        <input type="text" name="merchant_category"><br>
+
+        <label>Previous Transactions:</label><br>
+        <input type="text" name="previous_transactions"><br>
+
+        <label>Customer Location:</label><br>
+        <input type="text" name="customer_location"><br>
+
+        <label>Device Type:</label><br>
+        <input type="text" name="device_type"><br>
+
+        <label>Customer Age:</label><br>
+        <input type="text" name="customer_age"><br>
+
+        <label>Transaction Amount:</label><br>
+        <input type="text" name="amount"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+    <h3>Prediction: {{ prediction }}</h3>
+    <h4>Probability of Fraud: {{ prob }}%</h4>
+    {% endif %}
+</body>
+</html>
+
+
