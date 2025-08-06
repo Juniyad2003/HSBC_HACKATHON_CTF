@@ -1,5 +1,3 @@
-Here's your enhanced and visually appealing README, now with thoughtful emoji placement for better engagement and clarity!
-
 # 💳 Fraud Detection Using Machine Learning (XGBoost)
 
 **📅 Date:** 27.07.2025  
