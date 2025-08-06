@@ -1,8 +1,4 @@
 # 🛡️ Fraud_Detection_XGBoost  
-fraud_detection_xgboost.pptx  
-fraud_detection_xgboost.pdf  
-
-📊 Fraud Detection Using XGBoost 📈
 
 This repository contains the **PPT**, **PDF**, and **source code** for my fraud detection project using **XGBoost**. Here's what you'll find:
 
