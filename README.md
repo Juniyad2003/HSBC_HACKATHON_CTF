@@ -126,7 +126,7 @@ Built with XGBoost, the model demonstrates **exceptional accuracy and transparen
 For questions or collaboration, reach out to the author.
 
 **👨💻 Author:**  
-Juniyad Tamboli, Kapurhol, Pune
+Juniyad Tamboli, Pune
 
 *Feel free to share, star, or reach out for partnerships! 🚀*
 
